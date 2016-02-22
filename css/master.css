@@ -1,0 +1,80 @@
+body {
+font-family: "HelveticaNeue-UltraLight", "Helvetica Ultra Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 100;
+}
+
+
+.calculator {
+  margin: 1% auto;
+  width: 231px;
+  height: 320px;
+  background: #202020;
+  border-right: 1px solid #646464;
+  border-bottom: 1px solid #343434;
+  border-left: 1px solid #646464;
+  border-top: 1px solid #939393;
+  border-radius: 6px;
+}
+
+.readout {
+  font-size: 45px;
+  color: #ffffff;
+  background: transparent;
+  box-sizing: border-box;
+  display: block;
+  width: inherit;
+  border: 0;
+  margin: 28px 0 0 0;
+  text-align: right;
+  padding: 0 10px;
+}
+
+.keys {
+  width: 101%;
+  position: absolute;
+  bottom: 0;
+}
+
+.row {
+  padding-top: 1px;
+  clear:both;
+}
+.key:first-child {
+  margin-left: 0px;
+}
+
+.key {
+  width: 57px;
+  height: 47px;
+  font-size: 22px;
+  border: 0;
+  float:left;
+  margin-left: 1px;
+}
+
+.misc {
+  background: #d6d6d6;
+  font-size: 20px;
+}
+.misc:active{
+  background-color: darken(#d6d6d6, 15%);
+}
+button.key.function {
+    background-color: #FC7F11;
+    color: #fff;
+    font-size: 21px;
+}
+button.key.function:active{
+  background-color: darken(#ff8c00, 15%);
+}
+
+.numeric {
+  background: #e0e0e0;
+  font-family: "HelveticaNeue-Light", "Helvetica Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.numeric:active {
+  background-color: darken(#e0e0e0, 15%);
+}
+.double {
+    width: 115px;
+}
